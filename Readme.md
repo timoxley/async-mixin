@@ -1,6 +1,8 @@
 # async-mixin
 
-### [caolin/async](https://github.com/caolan/async)'s collection methods as a mixin.
+### [caolin/async](https://github.com/caolan/async) collection methods as a mixin.
+
+[![Build Status](https://travis-ci.org/timoxley/async-mixin.png?branch=master)](https://travis-ci.org/timoxley/async-mixin)
 
 Mixin methods: 
 
