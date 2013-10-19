@@ -1,0 +1,17 @@
+{
+  "name": "async-mixin",
+  "version": "0.0.0",
+  "description": "caolin/async's collection methods as a mixin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "Tim Oxley",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~2.0.0"
+  },
+  "dependencies": {
+    "async": "~0.2.9"
+  }
+}
