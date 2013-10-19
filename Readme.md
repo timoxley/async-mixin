@@ -1,6 +1,6 @@
 # async-mixin
 
-### [caolin/async](https://github.com/caolan/async)'s collection methods as a mixin. Create convenient async APIs for consumers.
+### [caolin/async](https://github.com/caolan/async)'s collection methods as a mixin.
 
 Mixin methods: 
 
