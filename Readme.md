@@ -4,29 +4,6 @@
 
 [![Build Status](https://travis-ci.org/timoxley/async-mixin.png?branch=master)](https://travis-ci.org/timoxley/async-mixin)
 
-Mixin methods: 
-
-* each
-* eachSeries
-* eachLimit
-* map
-* mapSeries
-* mapLimit
-* filter
-* filterSeries
-* reject
-* rejectSeries
-* reduce
-* reduceRight
-* detect
-* detectSeries
-* sortBy
-* some
-* every
-* concat
-* concatSeries
-
-
 ## Examples
 
 ### Wrap an object's array:
@@ -124,6 +101,29 @@ users.save(function(err) {
 })
 
 ```
+
+
+### Mixin Methods
+
+* each
+* eachSeries
+* eachLimit
+* map
+* mapSeries
+* mapLimit
+* filter
+* filterSeries
+* reject
+* rejectSeries
+* reduce
+* reduceRight
+* detect
+* detectSeries
+* sortBy
+* some
+* every
+* concat
+* concatSeries
 
 ### Safety
 
