@@ -4,11 +4,12 @@
   "description": "caolin/async's collection methods as a mixin.",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js && standard"
   },
   "author": "Tim Oxley",
   "license": "MIT",
   "devDependencies": {
+    "standard": "^7.1.2",
     "tape": "~4.6.0"
   },
   "dependencies": {
