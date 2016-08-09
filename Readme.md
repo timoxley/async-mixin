@@ -4,11 +4,19 @@
 
 [![Build Status](https://travis-ci.org/timoxley/async-mixin.png?branch=master)](https://travis-ci.org/timoxley/async-mixin)
 
-## Examples
+## Installation
 
-### Wrap an object's array:
+```
+npm install async-mixin
+```
+
+## Usage
+
+### Wrap a collection within an object
 
 ```js
+var asyncMixin = require('async-mixin')
+
 var admins = {
   userIds: [1,2,3,4,5]
 }
@@ -48,13 +56,9 @@ adminApi.reduce // => undefined
 
 ```
 
-
 ### Wrap Arrays directly
 
 ```js
-
-var asyncMixin = require('async-mixin')
-
 var items = [1,2,3,4,5]
 
 var container = asyncMixin(items)
@@ -66,13 +70,11 @@ container.map(function(item, next) {
 }, function(err, result) {
   console.log(result) // => [2, 4, 6, 8, 10]
 })
-
 ```
 
 ### Create handy prototype objects
 
 ```js
-
 function UserCollection(users) {
   this.users = users
 }
