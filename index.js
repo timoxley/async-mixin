@@ -51,7 +51,10 @@ module.exports = function asyncMixin (target, property, methods) {
     methods = property
     property = 'items'
   }
-  if (!Array.isArray(methods)) methods = asyncCollectionMethods
+
+  if (!Array.isArray(methods)) {
+    methods = asyncCollectionMethods
+  }
 
   var wrapper = Object.create(target || {})
   methods.forEach(function (key) {
