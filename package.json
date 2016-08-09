@@ -24,5 +24,7 @@
   },
   "bugs": {
     "url": "https://github.com/timoxley/async-mixin/issues"
-  }
+  },
+  "homepage": "https://github.com/timoxley/async-mixin#readme",
+  "keywords": []
 }
