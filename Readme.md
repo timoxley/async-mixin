@@ -105,25 +105,39 @@ users.save(function(err) {
 
 ### Mixin Methods
 
-* each
-* eachSeries
-* eachLimit
-* map
-* mapSeries
-* mapLimit
-* filter
-* filterSeries
-* reject
-* rejectSeries
-* reduce
-* reduceRight
-* detect
-* detectSeries
-* sortBy
-* some
-* every
 * concat
 * concatSeries
+* detect
+* detectLimit
+* detectSeries
+* each
+* eachLimit
+* eachOf
+* eachOfLimit
+* eachOfSeries
+* eachSeries
+* every
+* everyLimit
+* everySeries
+* filter
+* filterLimit
+* filterSeries
+* map
+* mapLimit
+* mapSeries
+* mapValues
+* mapValuesLimit
+* mapValuesSeries
+* reduce
+* reduceRight
+* reject
+* rejectLimit
+* rejectSeries
+* some
+* someLimit
+* someSeries
+* sortBy
+* transform
 
 ### Safety
 
